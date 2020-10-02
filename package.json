@@ -1,0 +1,28 @@
+{
+  "name": "ac19a",
+  "version": "0.0.1",
+  "author": "Dhika Putra Ardana <dhikaardana87@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite --config conf.js",
+    "build": "vite build --config conf.js"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.0",
+    "firebase": "^7.22.0",
+    "gsap": "file:gsap-bonus.tgz",
+    "tailwindcss": "^1.8.10",
+    "vue": "^3.0.0-rc.1",
+    "vue-router": "^4.0.0-beta.12",
+    "vuex": "^4.0.0-beta.4"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-rc.1",
+    "autoprefixer": "^9.0.0",
+    "postcss-flexbugs-fixes": "^4.2.1",
+    "postcss-preset-env": "^6.7.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "sass": "^1.26.11",
+    "vite": "^1.0.0-rc.1"
+  }
+}

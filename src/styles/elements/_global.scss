@@ -1,0 +1,22 @@
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background-color: theme("colors.whitesmoke");
+
+  body {
+    background-color: theme("colors.whitesmoke");
+
+    input,
+    textarea,
+    select,
+    button {
+      &:hover,
+      &:focus,
+      &:active {
+        @apply outline-none;
+      }
+    }
+  }
+}
